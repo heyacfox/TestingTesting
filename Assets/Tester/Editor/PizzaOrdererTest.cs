@@ -41,4 +41,13 @@ public class PizzaOrdererTest {
 		mock.IsPaymentAccepted ().Returns (true);
 		return mock;
 	}
+
+	//Added a comment
+
+	[Test]
+	public void testingAdding() 
+	{
+		Assert.AreEqual (12 - 1, 11); 
+	}
+
 }
